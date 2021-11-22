@@ -30,3 +30,4 @@ Assuming that you want to improve things on this master branch though, for examp
 - git log
 - git add . -> a command to add all untracked files to the staging area, and to also add all changes made to track files to the staging area
 - git checkout -b feature -> to create new branches in Git, we have a command "git checkout". Checkout = we refer to another branch. Checkout also = to switch between branches. With " -b", this simply means that we want to check out a new branch and create a new branch based on the branch we are currently in. So based on our main branch here, and now we can give this branch a name. There is no strict naming convention here. I'll simply call it "feature", as this branch will add a new feature to our main branch in the end.
+
