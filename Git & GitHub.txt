@@ -23,4 +23,12 @@ Assuming that you want to improve things on this master branch though, for examp
 103. Initializing the Repository & Creating our First Commit
 - git init -> initializing the project
 - git status -> we see well information about our current git project (master branch, commits, untracked files)
+- git config --global user.name
+- git config --global user.name "TomaszSuszka"
+- git config --global user.email
+- git config --global user.email "abc@cba.com"
+- git log
+- git add . -> a command to add all untracked files to the staging area, and to also add all changes made to track files to the staging area
+- git checkout -b feature -> to create new branches in Git, we have a command "git checkout". Checkout = we refer to another branch. Checkout also = to switch between branches. With " -b", this simply means that we want to check out a new branch and create a new branch based on the branch we are currently in. So based on our main branch here, and now we can give this branch a name. There is no strict naming convention here. I'll simply call it "feature", as this branch will add a new feature to our main branch in the end.
 - git merge feature -> referring to the branch that contains the commits that should be merged into our main branch
+Merging branches simply means you combine the two commits of these branches. Well, to have a merged branch with all the code implemented or incorporated in this branch. Merging always works from a "I am currently in a branch that should receive additional commits", way of thinking. So in our case, this means that if we want to add the feature that we just edit in the feature branch to our master branch, we have to switch to the master branch first and then merge the feature branch into the master branch.
