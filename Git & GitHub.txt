@@ -23,4 +23,4 @@ Assuming that you want to improve things on this master branch though, for examp
 103. Initializing the Repository & Creating our First Commit
 - git init -> initializing the project
 - git status -> we see well information about our current git project (master branch, commits, untracked files)
-- 
+- git merge feature -> referring to the branch that contains the commits that should be merged into our main branch
